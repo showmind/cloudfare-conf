@@ -1,0 +1,499 @@
+
+#
+#-------------------------------------------------------------#
+#  创建时间：2023-10-25 23:49:10
+#-------------------------------------------------------------#
+#
+mixed-port: 7890
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 0.0.0.0:9090
+dns:
+  enabled: true
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
+proxies:
+  - type: vless
+    name: HKG
+    server: 162.159.134.216
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: SJC
+    server: 104.17.212.213
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: icook.tw
+    server: icook.tw
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: time.is
+    server: time.is
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: skk.moe
+    server: skk.moe
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CM-LAX-141.101.113.218
+    server: 141.101.113.218
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CM-LAX-141.101.113.167
+    server: 141.101.113.167
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CM-LAX-172.67.103.204
+    server: 172.67.103.204
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CM-SJC-141.101.113.177
+    server: 141.101.113.177
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CM-LAX-172.64.109.160
+    server: 172.64.109.160
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CU-SJC-172.67.188.230
+    server: 172.67.188.230
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CU-SJC-172.67.48.102
+    server: 172.67.48.102
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CU-SJC-104.16.120.250
+    server: 104.16.120.250
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CU-SJC-141.101.113.244
+    server: 141.101.113.244
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CU-SJC-141.101.113.24
+    server: 141.101.113.24
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CT-SJC-104.16.216.228
+    server: 104.16.216.228
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CT-SJC-104.16.103.213
+    server: 104.16.103.213
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CT-SJC-104.16.107.27
+    server: 104.16.107.27
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CT-SJC-172.64.93.13
+    server: 172.64.93.13
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CT-IAD-172.67.78.190
+    server: 172.67.78.190
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - HKG
+      - SJC
+      - icook.tw
+      - time.is
+      - skk.moe
+      - Worker-CM-LAX-141.101.113.218
+      - Worker-CM-LAX-141.101.113.167
+      - Worker-CM-LAX-172.67.103.204
+      - Worker-CM-SJC-141.101.113.177
+      - Worker-CM-LAX-172.64.109.160
+      - Worker-CU-SJC-172.67.188.230
+      - Worker-CU-SJC-172.67.48.102
+      - Worker-CU-SJC-104.16.120.250
+      - Worker-CU-SJC-141.101.113.244
+      - Worker-CU-SJC-141.101.113.24
+      - Worker-CT-SJC-104.16.216.228
+      - Worker-CT-SJC-104.16.103.213
+      - Worker-CT-SJC-104.16.107.27
+      - Worker-CT-SJC-172.64.93.13
+      - Worker-CT-IAD-172.67.78.190
+
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - HKG
+      - SJC
+      - icook.tw
+      - time.is
+      - skk.moe
+      - Worker-CM-LAX-141.101.113.218
+      - Worker-CM-LAX-141.101.113.167
+      - Worker-CM-LAX-172.67.103.204
+      - Worker-CM-SJC-141.101.113.177
+      - Worker-CM-LAX-172.64.109.160
+      - Worker-CU-SJC-172.67.188.230
+      - Worker-CU-SJC-172.67.48.102
+      - Worker-CU-SJC-104.16.120.250
+      - Worker-CU-SJC-141.101.113.244
+      - Worker-CU-SJC-141.101.113.24
+      - Worker-CT-SJC-104.16.216.228
+      - Worker-CT-SJC-104.16.103.213
+      - Worker-CT-SJC-104.16.107.27
+      - Worker-CT-SJC-172.64.93.13
+      - Worker-CT-IAD-172.67.78.190
+
+rule-providers:
+  reject:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    path: ./ruleset/reject.yaml
+    interval: 86400
+
+  icloud:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
+    path: ./ruleset/icloud.yaml
+    interval: 86400
+
+  apple:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
+    path: ./ruleset/apple.yaml
+    interval: 86400
+
+  google:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
+    path: ./ruleset/google.yaml
+    interval: 86400
+
+  proxy:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
+    path: ./ruleset/proxy.yaml
+    interval: 86400
+
+  direct:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
+    path: ./ruleset/direct.yaml
+    interval: 86400
+
+  private:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
+    path: ./ruleset/private.yaml
+    interval: 86400
+
+  gfw:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
+    path: ./ruleset/gfw.yaml
+    interval: 86400
+
+  tld-not-cn:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
+    path: ./ruleset/tld-not-cn.yaml
+    interval: 86400
+
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
+    path: ./ruleset/telegramcidr.yaml
+    interval: 86400
+
+  cncidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
+    path: ./ruleset/cncidr.yaml
+    interval: 86400
+
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    path: ./ruleset/lancidr.yaml
+    interval: 86400
+
+  applications:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
+    path: ./ruleset/applications.yaml
+    interval: 86400
+
+rules:
+  - RULE-SET,applications,DIRECT
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  - RULE-SET,private,DIRECT
+  - RULE-SET,reject,REJECT
+  - RULE-SET,tld-not-cn,🚀 节点选择
+  - RULE-SET,gfw,🚀 节点选择
+  - RULE-SET,telegramcidr,🚀 节点选择
+  - MATCH,DIRECT
+
+# whitelist
+# rules:
+#   - RULE-SET,applications,DIRECT
+#   - DOMAIN,clash.razord.top,DIRECT
+#   - DOMAIN,yacd.haishan.me,DIRECT
+#   - RULE-SET,private,DIRECT
+#   - RULE-SET,reject,REJECT
+#   - RULE-SET,icloud,DIRECT
+#   - RULE-SET,apple,DIRECT
+#   - RULE-SET,google,DIRECT
+#   - RULE-SET,proxy,🚀 节点选择
+#   - RULE-SET,direct,DIRECT
+#   - RULE-SET,lancidr,DIRECT
+#   - RULE-SET,cncidr,DIRECT
+#   - RULE-SET,telegramcidr,🚀 节点选择
+#   - GEOIP,LAN,DIRECT
+#   - GEOIP,CN,DIRECT
+#   - MATCH,🚀 节点选择
+

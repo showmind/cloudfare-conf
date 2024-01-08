@@ -1,0 +1,300 @@
+  - type: vless
+    name: HKG
+    server: 162.159.134.216
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: SJC
+    server: 104.17.212.213
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: icook.tw
+    server: icook.tw
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: time.is
+    server: time.is
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: skk.moe
+    server: skk.moe
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CM-LAX-141.101.113.218
+    server: 141.101.113.218
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CM-LAX-141.101.113.167
+    server: 141.101.113.167
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CM-LAX-172.67.103.204
+    server: 172.67.103.204
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CM-SJC-141.101.113.177
+    server: 141.101.113.177
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CM-LAX-172.64.109.160
+    server: 172.64.109.160
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CU-SJC-172.67.188.230
+    server: 172.67.188.230
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CU-SJC-172.67.48.102
+    server: 172.67.48.102
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CU-SJC-104.16.120.250
+    server: 104.16.120.250
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CU-SJC-141.101.113.244
+    server: 141.101.113.244
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CU-SJC-141.101.113.24
+    server: 141.101.113.24
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CT-SJC-104.16.216.228
+    server: 104.16.216.228
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CT-SJC-104.16.103.213
+    server: 104.16.103.213
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CT-SJC-104.16.107.27
+    server: 104.16.107.27
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CT-SJC-172.64.93.13
+    server: 172.64.93.13
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
+  - type: vless
+    name: Worker-CT-IAD-172.67.78.190
+    server: 172.67.78.190
+    port: 443
+    uuid: 6386b476-d9b1-4ec8-953c-d682a22a01f7
+    network: ws
+    tls: true
+    udp: false
+    sni: cfhello.patvice.top
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        host: cfhello.patvice.top
